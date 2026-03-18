@@ -43,7 +43,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto md:mx-0 mb-10 leading-relaxed"
           >
-            Passionate about building secure systems and exploring AI-driven technologies. Strong algorithmic problem solver with 100+ LeetCode problems solved. I thrive on creating robust data-driven solutions.
+            Passionate about building secure systems and exploring AI-driven technologies. Strong algorithmic problem solver with 90+ LeetCode problems solved. I thrive on creating robust data-driven solutions.
           </motion.p>
 
           <motion.div

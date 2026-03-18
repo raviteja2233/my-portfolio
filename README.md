@@ -10,7 +10,7 @@ I engineered this website to highlight not just what I've studied, but how I pra
 - **My Background**: An interactive timeline of my education and continuous learning journey.
 - **My Skills**: A breakdown of my core competencies across languages (C++, Python, JavaScript) and data science libraries (Pandas, NumPy, Scikit-learn).
 - **Key Projects**: High-level overviews of my best work, including my cryptography-driven **Secure E-Voting System** and comprehensive **Video Game Sales Data Analysis**.
-- **Achievements**: Tracking my milestone of conquering **100+ LeetCode problems**, showcasing my strong foundation in algorithmic logic and optimizations.
+- **Achievements**: Tracking my milestone of conquering **90+ LeetCode problems**, showcasing my strong foundation in algorithmic logic and optimizations.
 - **Community Impact**: A spotlight on my volunteer work with the Dhruvansh NGO, contributing to environmental sustainability.
 
 ## 🌐 Live Website

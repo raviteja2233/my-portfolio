@@ -39,6 +39,14 @@ export default function Footer() {
               <FaLinkedin size={20} />
             </a>
             <a
+              href="https://leetcode.com/u/8074476558/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-white hover:bg-[#FFA116]/20 hover:border-[#FFA116]/50 hover:scale-110 transition-all duration-300"
+            >
+              <span className="font-bold leading-none" style={{ fontSize: '1.25rem' }}>L</span>
+            </a>
+            <a
               href="mailto:srirampendem9395@gmail.com"
               className="p-3 rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-white hover:bg-primary/20 hover:border-primary/50 hover:scale-110 transition-all duration-300"
             >

@@ -65,6 +65,9 @@ export default function Contact() {
                 <a href="https://github.com/Sriramp24" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gray-300 hover:text-white hover:border-white hover:bg-white/20 transition-all hover:scale-110 shadow-lg">
                   <FaGithub size={20} />
                 </a>
+                <a href="https://leetcode.com/u/8074476558/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gray-300 hover:text-white hover:border-[#FFA116] hover:bg-[#FFA116]/20 transition-all hover:scale-110 shadow-lg">
+                  <span className="font-bold font-mono text-xl">L</span>
+                </a>
               </div>
             </div>
           </motion.div>

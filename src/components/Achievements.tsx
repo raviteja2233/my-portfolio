@@ -34,7 +34,7 @@ const CountUp = ({ end, duration = 2, suffix = "" }: { end: number, duration?: n
 const achievements = [
   {
     icon: <FaCode />,
-    number: 100,
+    number: 90,
     suffix: "+",
     title: "DSA Problems Solved",
     description: "On LeetCode, demonstrating strong algorithmic problem-solving skills.",

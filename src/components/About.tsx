@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 const highlights = [
-  { value: "100+", label: "DSA Problems Solved" },
+  { value: "90+", label: "DSA Problems Solved" },
   { value: "3+", label: "Core Tech Stacks" },
   { value: "Strong", label: "Analytical Thinking" },
   { value: "Fast", label: "Continuous Learner" },
