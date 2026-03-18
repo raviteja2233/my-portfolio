@@ -15,7 +15,7 @@ I engineered this website to highlight not just what I've studied, but how I pra
 
 ## 🌐 Live Website
 You can view the live, fully interactive version of this portfolio here:
-👉 **[https://sriram-portfolio.vercel.app](https://sriram-portfolio.vercel.app)**
+👉 **https://sriram-portfolio-ten.vercel.app/**
 
 *(Note: If Vercel generated a slightly different URL for you, update this link!)*
 
