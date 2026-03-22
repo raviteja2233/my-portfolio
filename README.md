@@ -16,9 +16,9 @@ I engineered this website to showcase my expertise in cybersecurity and Python d
 
 ## 🌐 Live Website
 You can view the live, fully interactive version of this portfolio here:
-👉 **https://sriram-portfolio-ten.vercel.app/**
+👉 **[Insert your live Vercel URL here]**
 
-*(Note: If Vercel generated a slightly different URL for you, update this link!)*
+*(Note: Once deployed via Vercel, update this link!)*
 
 ## 🛠 Built With
 This application was built utilizing a modern web development stack designed for speed, responsiveness, and fluid animations:
@@ -27,5 +27,5 @@ This application was built utilizing a modern web development stack designed for
 * **Animations:** [Framer Motion](https://www.framer.com/motion/)
 * **Deployment:** [Vercel](https://vercel.com/)
 
----Raviteja Surayolla](https://github.com/raviteja2233
-*Developed by [Sriram Pendem](https://github.com/Sriramp24)*
+---
+*Developed by [Raviteja Surayolla](https://github.com/raviteja2233)*
