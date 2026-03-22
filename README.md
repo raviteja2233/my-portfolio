@@ -16,7 +16,7 @@ I engineered this website to showcase my expertise in cybersecurity and Python d
 
 ## 🌐 Live Website
 You can view the live, fully interactive version of this portfolio here:
-👉 **[Insert your live Vercel URL here]**
+👉 **(https://my-portfolio-ten-sable-80.vercel.app/)**
 
 *(Note: Once deployed via Vercel, update this link!)*
 
