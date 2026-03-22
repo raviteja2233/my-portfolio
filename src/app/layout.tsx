@@ -15,8 +15,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Sriram Pendem | Software Developer",
-  description: "Interactive developer portfolio of Sriram Pendem, showcasing skills in Software Development, Data Analysis, and DSA.",
+  title: "Raviteja Surayolla | Cybersecurity & Python Developer",
+  description: "Interactive developer portfolio of Raviteja Surayolla, showcasing skills in Cybersecurity, Network Security, Python Development, and Ethical Hacking.",
 };
 
 export default function RootLayout({

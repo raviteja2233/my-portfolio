@@ -5,16 +5,17 @@ import { FaCertificate, FaDesktop } from "react-icons/fa";
 
 const trainings = [
   {
-    title: "Foundations and Data Structures in C, C++ and Java",
-    duration: "Jun 2025 – Jul 2025",
-    learnings: ["Programming fundamentals", "Core data structures", "Algorithm implementation"],
+    title: "Python Development",
+    duration: "Cipher School",
+    learnings: ["Python fundamentals", "Application development", "Best practices"],
   }
 ];
 
 const certifications = [
-  "ChatGPT, Gen AI & LLM – Infosys",
-  "Build Generative AI Apps and Solutions with No-Code Tools – Infosys",
-  "Fundamentals of Data Structures using C++ – Centre for Professional Enhancement"
+  "Computer Communications – Coursera | Nov' 24",
+  "Introduction to Hardware and Operating Systems – IBM-Coursera | Sep' 24",
+  "The Bits and Bytes of Computer Networking – Google-Coursera | Sep' 24",
+  "Responsive Web Design – FreeCodeCamp | Nov' 23"
 ];
 
 export default function Certifications() {

@@ -8,19 +8,18 @@ const educationData = [
     title: "Bachelor of Technology – Computer Science and Engineering",
     institution: "Lovely Professional University, Punjab, India",
     duration: "Aug 2023 – Present",
-    score: "CGPA: 6.67",
   },
   {
-    title: "Intermediate (12th Grade)",
-    institution: "Paramita World School, Telangana",
-    duration: "Jul 2022 – Mar 2023",
-    score: "Percentage: 83%",
+    title: "Intermediate",
+    institution: "Prathibha Junior College, Hyderabad, Telangana",
+    duration: "Jun 2021 – Mar 2023",
+    score: "Percentage: 78%",
   },
   {
-    title: "High School (10th Grade)",
-    institution: "Paramita High School, Telangana",
-    duration: "Jul 2020 – Mar 2021",
-    score: "Percentage: 60%",
+    title: "Matriculation",
+    institution: "Geethanjali High School, Hyderabad, Telangana",
+    duration: "Jun 2020 – Apr 2021",
+    score: "Percentage: 100%",
   },
 ];
 

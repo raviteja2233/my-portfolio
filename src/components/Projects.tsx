@@ -5,20 +5,20 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Secure E-Voting System",
-    description: "Developed a secure electronic voting verification system using advanced data structures and cryptographic techniques.",
-    longDescription: "Features include Merkle trees and hash tables, SHA-256 hashing, digital signatures, tamper detection, and secure vote storage.",
-    tech: ["C++", "OOP", "Data Structures", "HTML", "CSS"],
-    github: "https://github.com/Sriramp24",
-    imagePlaceholder: "E-Voting",
+    title: "Network Port Scanner Using Python",
+    description: "Developed a robust network port scanner application for identifying open ports and services on target systems.",
+    longDescription: "Features include socket programming, TCP/IP protocol implementation, multi-threaded scanning, detailed port analysis, and comprehensive CLI interface for ease of use.",
+    tech: ["Python", "Socket Programming", "TCP/IP Basics", "Port Scanning", "CLI Tools"],
+    github: "https://github.com/raviteja2233/Network-Port-Scanner-Using-Python-.git",
+    imagePlaceholder: "Port Scanner",
   },
   {
-    title: "Video Game Sales Data Analysis",
-    description: "Conducted exploratory analysis of global video game sales data to discover trends across platforms and regions.",
-    longDescription: "Key work involved data cleaning and analysis, statistical tests, multicollinearity analysis, and data visualization dashboards.",
-    tech: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "SciPy"],
-    github: "https://github.com/Sriramp24",
-    imagePlaceholder: "Data Analysis",
+    title: "Password Strength Checker",
+    description: "Built a sophisticated password strength evaluation tool with real-time feedback and security recommendations.",
+    longDescription: "Implements cybersecurity best practices, string processing algorithms, complexity analysis, and provides actionable suggestions for improving password security.",
+    tech: ["Python", "Cybersecurity Basics", "String Processing", "Security Analysis"],
+    github: "https://github.com/raviteja2233/Password-Strength-Checker-project-.git",
+    imagePlaceholder: "Password Checker",
   },
 ];
 

@@ -1,33 +1,33 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaCode, FaChartBar, FaChartPie, FaBrain, FaGlobe } from "react-icons/fa";
+import { FaCode, FaShieldAlt, FaLock, FaBrain, FaServer } from "react-icons/fa";
 
 const services = [
   {
-    title: "Software Development",
-    description: "Develop efficient software solutions using C++ and Python with a focus on algorithmic optimization and scalable logic.",
+    title: "Python Development",
+    description: "Develop robust and efficient applications using Python with focus on security and best practices.",
     icon: <FaCode />,
   },
   {
-    title: "Data Analysis",
-    description: "Perform data exploration and insights generation using Python libraries such as Pandas, NumPy, and Matplotlib.",
-    icon: <FaChartBar />,
+    title: "Network Security",
+    description: "Analyze and secure networks using tools like Kali Linux, network scanners, and penetration testing techniques.",
+    icon: <FaServer />,
   },
   {
-    title: "Data Visualization",
-    description: "Create meaningful visual reports and dashboards to uncover insights from data.",
-    icon: <FaChartPie />,
+    title: "Security Tools & Automation",
+    description: "Build and utilize security tools like port scanners and password validators for infrastructure security.",
+    icon: <FaShieldAlt />,
   },
   {
-    title: "Algorithmic Problem Solving",
-    description: "Design optimized solutions for complex problems using strong Data Structures and Algorithms knowledge.",
+    title: "Ethical Hacking & Penetration Testing",
+    description: "Conduct security assessments using HackTheBox, TryHackMe, and industry-standard penetration testing methodologies.",
+    icon: <FaLock />,
+  },
+  {
+    title: "Problem Solving & Algorithm Design",
+    description: "Design optimized solutions for complex problems leveraging strong Data Structures and Algorithms knowledge.",
     icon: <FaBrain />,
-  },
-  {
-    title: "Basic Web Development",
-    description: "Build simple and responsive websites using HTML, CSS, and modern web frameworks.",
-    icon: <FaGlobe />,
   },
 ];
 

@@ -21,7 +21,7 @@ export default function Hero() {
               Hello World, I am
             </h2>
             <h1 className="text-5xl md:text-7xl font-bold font-outfit mb-6 text-white">
-              Sriram Pendem
+              Raviteja Surayolla
             </h1>
           </motion.div>
 
@@ -32,9 +32,9 @@ export default function Hero() {
             className="text-xl md:text-2xl text-gray-300 font-medium mb-6 font-outfit"
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-bold">
-              Computer Science Student
+              Cybersecurity Enthusiast
             </span>{' '}
-            | Software Developer | DSA Enthusiast
+            | Network Security | Python Developer
           </motion.div>
 
           <motion.p
@@ -43,7 +43,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto md:mx-0 mb-10 leading-relaxed"
           >
-            Passionate about building secure systems and exploring AI-driven technologies. Strong algorithmic problem solver with 90+ LeetCode problems solved. I thrive on creating robust data-driven solutions.
+            Passionate about cybersecurity, network security, and ethical hacking. Strong problem solver with 100+ coding problems solved across LeetCode, CodeChef & HackerRank. Experienced in penetration testing and security tools like Kali Linux and HackTheBox.
           </motion.p>
 
           <motion.div
@@ -55,7 +55,7 @@ export default function Hero() {
             <a href="#projects" className="px-8 py-3 rounded-full bg-gradient-to-r from-primary to-secondary text-white font-medium hover:scale-105 transition-transform shadow-[0_0_20px_rgba(79,70,229,0.4)]">
               View Projects
             </a>
-            <a href="https://drive.google.com/file/d/19e1inDlTdwX8hRI3ZMKsWAXjh7zBxtgB/view?usp=drivesdk" target="_blank" className="px-8 py-3 rounded-full bg-white/5 border border-white/10 text-white font-medium hover:bg-white/10 transition-colors backdrop-blur-sm">
+            <a href="https://drive.google.com/file/d/1RmzZ5iW15qbRbE4TPx2IIsx5wMYh-7oO/view?usp=sharing" target="_blank" className="px-8 py-3 rounded-full bg-white/5 border border-white/10 text-white font-medium hover:bg-white/10 transition-colors backdrop-blur-sm">
               Download Resume
             </a>
             <a href="#contact" className="px-8 py-3 rounded-full text-gray-300 hover:text-white border border-transparent font-medium hover:border-white/10 transition-colors">
@@ -73,7 +73,7 @@ export default function Hero() {
           <div className="relative aspect-square rounded-full border border-white/10 p-4 bg-white/5 backdrop-blur-sm shadow-2xl">
             <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center overflow-hidden border border-white/5 relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/40 to-secondary/40 animate-pulse rounded-full blur-2xl -z-10" />
-              <img src="/profile.jpg" alt="Sriram Pendem" className="w-full h-full object-cover z-20" />
+              <img src="/profile.png" alt="Raviteja Surayolla" className="w-full h-full object-cover z-20" />
             </div>
 
             {/* Floating Icons */}

@@ -34,26 +34,26 @@ const CountUp = ({ end, duration = 2, suffix = "" }: { end: number, duration?: n
 const achievements = [
   {
     icon: <FaCode />,
-    number: 90,
+    number: 100,
     suffix: "+",
-    title: "DSA Problems Solved",
-    description: "On LeetCode, demonstrating strong algorithmic problem-solving skills.",
+    title: "Coding Problems Solved",
+    description: "Across LeetCode, CodeChef & HackerRank, sharpening problem-solving skills.",
     color: "from-blue-500 to-cyan-400"
   },
   {
     icon: <FaShieldAlt />,
-    number: 1,
+    number: 2,
     suffix: "",
-    title: "Secure EVoting System",
-    description: "Built using advanced cryptographic techniques and data structures.",
+    title: "Security Projects",
+    description: "Network Scanner and Password Strength Checker with advanced techniques.",
     color: "from-purple-500 to-pink-500"
   },
   {
-    icon: <FaChartLine />,
-    number: 3,
+    icon: <FaCode />,
+    number: 4,
     suffix: "+",
-    title: "Data Analysis Projects",
-    description: "Conducted statistical analysis on massive datasets.",
+    title: "Certifications",
+    description: "From Coursera, IBM, Google, and FreeCodeCamp on networking and development.",
     color: "from-green-400 to-emerald-500"
   },
   {
@@ -61,7 +61,7 @@ const achievements = [
     number: 5,
     suffix: "+",
     title: "Core Competencies",
-    description: "Strong foundation in algorithms, systems, and logic.",
+    description: "Python, C/C++, Cybersecurity, Network Security, and Linux administration.",
     color: "from-orange-400 to-yellow-500"
   }
 ];

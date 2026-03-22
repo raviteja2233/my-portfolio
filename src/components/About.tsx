@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const highlights = [
-  { value: "90+", label: "DSA Problems Solved" },
-  { value: "3+", label: "Core Tech Stacks" },
-  { value: "Strong", label: "Analytical Thinking" },
-  { value: "Fast", label: "Continuous Learner" },
+  { value: "100+", label: "Problems Solved" },
+  { value: "4+", label: "Certifications" },
+  { value: "Strong", label: "Security Focus" },
+  { value: "Expert", label: "Python Developer" },
 ];
 
 export default function About() {
@@ -35,13 +35,13 @@ export default function About() {
             className="space-y-6 text-gray-400 text-lg leading-relaxed"
           >
             <p>
-              I am a <span className="text-white font-medium">Computer Science Engineering</span> student deeply passionate about software development, data analysis, and algorithmic problem solving. For me, coding is more than just writing syntax; it's about engineering efficient, scalable solutions that solve real-world problems.
+              I am a passionate <span className="text-white font-medium">Cybersecurity Enthusiast and Python Developer</span> focused on network security, penetration testing, and building robust security tools. For me, coding is about creating solutions that protect systems and data from threats.
             </p>
             <p>
-              My journey involves building <span className="text-white font-medium">secure systems</span>, exploring AI-driven technologies, and continuously pushing my boundaries. I pride myself on having a robust foundation in Data Structures and Algorithms, enabling me to optimize complex logic.
+              My journey involves exploring <span className="text-white font-medium">ethical hacking</span>, mastering cybersecurity frameworks, and continuously expanding my expertise in security tools and techniques. I'm dedicated to maintaining the highest standards in secure coding practices.
             </p>
             <p>
-              When I'm not studying or coding, I enjoy giving back to the community and volunteering for impactful causes.
+              When I'm not working on security projects or coding, I enjoy learning new security tools and contributing to the cybersecurity community.
             </p>
           </motion.div>
 

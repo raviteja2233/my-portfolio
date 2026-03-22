@@ -33,9 +33,8 @@ export default function Navbar() {
       <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
         <Link href="/" className="text-2xl font-outfit font-bold tracking-tighter">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-            SRIRAM
+            RAVITEJA
           </span>
-          <span className="text-white">.DEV</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -51,7 +50,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="https://drive.google.com/file/d/19e1inDlTdwX8hRI3ZMKsWAXjh7zBxtgB/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1RmzZ5iW15qbRbE4TPx2IIsx5wMYh-7oO/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 rounded-full font-medium text-sm text-white bg-white/5 border border-white/10 hover:bg-white/10 transition-colors backdrop-blur-sm"
@@ -89,7 +88,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://drive.google.com/file/d/19e1inDlTdwX8hRI3ZMKsWAXjh7zBxtgB/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1RmzZ5iW15qbRbE4TPx2IIsx5wMYh-7oO/view?usp=sharing"
               target="_blank"
               onClick={() => setIsOpen(false)}
               className="text-center px-6 py-3 rounded-xl font-medium text-white bg-gradient-to-r from-primary to-secondary"
