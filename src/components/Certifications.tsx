@@ -12,10 +12,10 @@ const trainings = [
 ];
 
 const certifications = [
-  "Computer Communications – Coursera | Nov' 24",
-  "Introduction to Hardware and Operating Systems – IBM-Coursera | Sep' 24",
-  "The Bits and Bytes of Computer Networking – Google-Coursera | Sep' 24",
-  "Responsive Web Design – FreeCodeCamp | Nov' 23"
+  { name: "Computer Communications – Coursera | Nov' 24", link: "https://drive.google.com/file/d/1fj2n5ip7DyBJlOu_Yd6GMFfbgdFEaIph/view?usp=sharing" },
+  { name: "Introduction to Hardware and Operating Systems – IBM-Coursera | Sep' 24", link: "https://drive.google.com/file/d/1EaJ4G3BeWaiAIw79HjakXGcRaDfQvQwv/view?usp=sharing" },
+  { name: "The Bits and Bytes of Computer Networking – Google-Coursera | Sep' 24", link: "https://drive.google.com/file/d/11D7oEjLRbhXq4T6qxavyPnARYHzEMCtS/view?usp=sharing" },
+  { name: "Responsive Web Design – FreeCodeCamp | Nov' 23", link: "https://drive.google.com/file/d/1cQggjZyd0bpbEArBiyrqOhiooUQ3sjD-/view?usp=sharing" }
 ];
 
 export default function Certifications() {
@@ -78,14 +78,14 @@ export default function Certifications() {
             </h3>
             <div className="space-y-4">
               {certifications.map((cert, index) => (
-                <div key={index} className="group flex items-start gap-4 bg-white/5 border border-white/10 rounded-2xl p-5 hover:bg-white/10 hover:border-secondary/50 transition-all duration-300 cursor-default">
+                <a key={index} href={cert.link} target={cert.link !== "#" ? "_blank" : "_self"} rel="noopener noreferrer" className="block group flex items-start gap-4 bg-white/5 border border-white/10 rounded-2xl p-5 hover:bg-white/10 hover:border-secondary/50 transition-all duration-300 cursor-pointer">
                   <div className="mt-1 p-2 rounded-lg bg-secondary/20 text-secondary group-hover:scale-110 transition-transform">
                     <FaCertificate size={16} />
                   </div>
                   <p className="text-gray-300 font-medium leading-relaxed group-hover:text-white transition-colors">
-                    {cert}
+                    {cert.name}
                   </p>
-                </div>
+                </a>
               ))}
             </div>
           </motion.div>
