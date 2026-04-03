@@ -1,9 +1,35 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaPaperPlane } from "react-icons/fa";
 
 export default function Contact() {
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setStatus('loading');
+    
+    const formData = new FormData(e.currentTarget);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    try {
+      const res = await fetch("https://formsubmit.co/ajax/sraviteja3456@gmail.com", {
+        method: "POST",
+        headers: { 
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        },
+        body: json
+      });
+      if (res.ok) setStatus('success');
+      else setStatus('error');
+    } catch (error) {
+      setStatus('error');
+    }
+  };
   return (
     <section id="contact" className="py-24 w-full relative">
       <div className="container mx-auto px-6 max-w-6xl">
@@ -65,7 +91,7 @@ export default function Contact() {
                 <a href="https://github.com/raviteja2233" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gray-300 hover:text-white hover:border-white hover:bg-white/20 transition-all hover:scale-110 shadow-lg">
                   <FaGithub size={20} />
                 </a>
-                <a href="https://leetcode.com/u/raviteja2233/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gray-300 hover:text-white hover:border-[#FFA116] hover:bg-[#FFA116]/20 transition-all hover:scale-110 shadow-lg">
+                <a href="https://leetcode.com/u/6281312828/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gray-300 hover:text-white hover:border-[#FFA116] hover:bg-[#FFA116]/20 transition-all hover:scale-110 shadow-lg">
                   <span className="font-bold font-mono text-xl">L</span>
                 </a>
               </div>
@@ -81,7 +107,7 @@ export default function Contact() {
           >
             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -z-10" />
 
-            <form action="https://formsubmit.co/sraviteja3456@gmail.com" method="POST" className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
               
@@ -106,9 +132,11 @@ export default function Contact() {
                 <textarea id="message" name="message" required rows={5} placeholder="Hello Raviteja, I have a project..." className="w-full bg-background border border-white/10 rounded-xl px-5 py-4 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-transparent transition-all resize-none"></textarea>
               </div>
 
-              <button type="submit" className="w-full py-4 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-bold text-lg flex items-center justify-center gap-2 hover:shadow-[0_0_30px_rgba(79,70,229,0.4)] transition-shadow duration-300">
-                Send Message <FaPaperPlane className="text-sm" />
+              <button disabled={status === 'loading'} type="submit" className="w-full py-4 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-bold text-lg flex items-center justify-center gap-2 hover:shadow-[0_0_30px_rgba(79,70,229,0.4)] transition-shadow duration-300 disabled:opacity-70">
+                {status === 'loading' ? 'Sending...' : status === 'success' ? 'Message Sent Successfully!' : 'Send Message'} 
+                {status !== 'loading' && status !== 'success' && <FaPaperPlane className="text-sm" />}
               </button>
+              {status === 'error' && <p className="text-red-400 text-center text-sm font-medium pt-2">Something went wrong. Please try again or email directly.</p>}
             </form>
           </motion.div>
         </div>

@@ -2,13 +2,15 @@
 
 import { motion } from "framer-motion";
 import { FaCode, FaDatabase, FaBrain } from "react-icons/fa";
+import ParticlesBackground from "./ParticlesBackground";
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center w-full overflow-hidden pt-20">
+      <ParticlesBackground />
       {/* Background gradients */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/30 rounded-full mix-blend-screen filter blur-[128px] animate-pulse" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/30 rounded-full mix-blend-screen filter blur-[128px] animate-pulse" style={{ animationDelay: '2s' }} />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/30 rounded-full mix-blend-screen filter blur-[128px] animate-pulse -z-10" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/30 rounded-full mix-blend-screen filter blur-[128px] animate-pulse -z-10" style={{ animationDelay: '2s' }} />
 
       <div className="container mx-auto px-6 max-w-7xl relative z-10 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 text-center md:text-left">

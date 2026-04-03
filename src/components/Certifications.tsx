@@ -8,6 +8,7 @@ const trainings = [
     title: "Python Development",
     duration: "Cipher School",
     learnings: ["Python fundamentals", "Application development", "Best practices"],
+    link: "https://drive.google.com/file/d/1RmzZ5iW15qbRbE4TPx2IIsx5wMYh-7oO/view?usp=sharing"
   }
 ];
 
@@ -48,8 +49,14 @@ export default function Certifications() {
             </h3>
             <div className="space-y-6">
               {trainings.map((training, index) => (
-                <div key={index} className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/50 transition-colors">
-                  <h4 className="text-xl font-bold text-white mb-2">{training.title}</h4>
+                <a 
+                  key={index} 
+                  href={training.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="block bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/50 transition-colors cursor-pointer group"
+                >
+                  <h4 className="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">{training.title}</h4>
                   <p className="text-primary text-sm font-mono mb-4 bg-primary/10 inline-block px-3 py-1 rounded">
                     {training.duration}
                   </p>
@@ -61,7 +68,7 @@ export default function Certifications() {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </a>
               ))}
             </div>
           </motion.div>
